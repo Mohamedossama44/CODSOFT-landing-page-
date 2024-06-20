@@ -1,0 +1,160 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+}
+
+.header-container .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cta-button {
+    background: rgb(9, 50, 213);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #000;
+}
+
+.hero-buttons button {
+    background: rgb(9, 50, 213);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.feature {
+    text-align: center;
+    max-width: 200px;
+}
+
+/* styles.css */
+
+.about {
+    padding: 50px 20px;
+    text-align: left;
+    /* Ensure all text is left-aligned */
+}
+
+.about h2 {
+    text-align: center;
+    /* Keep the heading centered */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* Ensure responsiveness */
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.imgabout img {
+    max-width: 350px;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.service {
+    margin: 20px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-media-icons a img:hover {
+    transform: scale(1.1);
+}
